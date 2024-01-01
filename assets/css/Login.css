@@ -1,0 +1,97 @@
+
+    body { 
+        background-color: black;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a {
+        color: #ffc451;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #ffd584;
+        text-decoration: none;
+    }
+    
+    .login-container {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap: 3rem;
+        height: 100vh;
+    } 
+
+    .form-group {
+       margin-bottom: 20px;
+       width: 100%;
+       border: 1px solid #ccc;
+       padding: 8px;
+    }
+
+    .form-group input{
+        border: none;
+        outline: none;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .left{
+        display: block;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .hero-text{
+        display: block;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: bold;
+    }
+
+    .hero-text h1 span{
+        display: block;
+        color: green;
+    }
+
+    .hero-img img{
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .right{
+        width: 40%;
+        border-radius: 10px;
+        box-shadow: 2px 2px 20px pink;
+        padding: 50px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .get-started-btn {
+        background-color: #00e874;
+        color: black;
+        padding: 7px 25px 8px 25px;
+        border: none;
+    }
+
+    .message .error{
+        background-color: #ff9b9d;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+        padding: 6px;
+    }
+    .message .success{
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+        padding: 6px;
+        background-color: #00e874;
+    }
