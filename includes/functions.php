@@ -1,5 +1,6 @@
 <!-- This page contains all the functions I'll use in this single-page shopping store which includes the header and footer functions -->
 
+<link rel="stylesheet" href="../assets/css/style.css">
 <?php
     function header($title){
         echo <<<EOT
@@ -65,7 +66,8 @@
         </html>
         EOT;
     }
-    
+
+
     //my footer
     function footer(){
         echo <<<EOT

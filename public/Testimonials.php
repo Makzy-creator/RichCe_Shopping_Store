@@ -1,4 +1,5 @@
 <body>
+<link rel="stylesheet" href="../assets/css/style.css">;
     
  <!-- ======= Testimonials Section ======= -->
  <section id="testimonials" class="testimonials">
@@ -7,7 +8,7 @@
             class="testimonials-slider swiper"
             data-aos="fade-up"
             data-aos-delay="100"
-          >
+            >
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="testimonial-item">
@@ -111,9 +112,15 @@
               </div>
               <!-- End testimonial item -->
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
+                    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
+                    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span>
+                    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span>
+                    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span>
+                </div>
+            </div>
           </div>
-        </div>
       </section>
       <!-- End Testimonials Section -->
 </body>

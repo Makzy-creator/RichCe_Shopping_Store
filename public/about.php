@@ -7,14 +7,14 @@
               class="col-lg-6 order-1 order-lg-2"
               data-aos=" fade-left"
               data-aos-delay="100"
-            >
+              >
               <img src="../assets/img/Tea/Tea10.jpg" class="img-fluid" alt="" />
             </div>
             <div
               class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
               data-aos="fade-right"
               data-aos-delay="100"
-            >
+              >
               <h3>
                 RichCe Garde Tea is a blend of natural herbs such as Avacado,
                 Moringa, Soursop etcetra to give your body the vitality it

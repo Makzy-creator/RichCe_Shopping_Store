@@ -23,8 +23,8 @@
                 // $row = $stmt->fetch(PDO::FETCH_ASSOC);
             ?>
             <!-- id,product_name,product_image,product_price,product_code -->
-              <?php while ($row = $result->fetch_assoc()): ?>
-           <div class="card-1 text-center col-lg-3">
+             <?php while ($row = $result->fetch_assoc()): ?>
+            <div class="card-1 text-center col-lg-3">
               <div class="card-deck">
                 <div class="card p-2 border-secondary mb-2">
                   <img src="<?= $row["product_image"] ?>" class="card-img-top" alt="">

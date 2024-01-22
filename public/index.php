@@ -7,7 +7,9 @@ $_SESSION['csrf'] = getRandomID();
 ?>
 
   <body>
-    <?= header($title) ?>
+    <?php
+        include './header.php';
+    ?>
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center justify-content-center">
       <div class="container" data-aos="fade-up">
@@ -15,7 +17,7 @@ $_SESSION['csrf'] = getRandomID();
           class="row justify-content-center"
           data-aos="fade-up"
           data-aos-delay="150"
-        >
+          >
           <div class="col-xl-6 col-lg-8">
             <h1>Powerful Health Solutions With RichCe<span>.</span></h1>
             <h2>A tea with healthy solutions</h2>
@@ -26,31 +28,31 @@ $_SESSION['csrf'] = getRandomID();
           class="row gy-3 mt-3 justify-content-center"
           data-aos="zoom-in"
           data-aos-delay="250"
-        >
+          >
           <div class="col-xl-2 col-md-3">
             <div class="icon-box">
               <i class="ri-bar-chart-box-line"></i>
               <h3><a href="">Cures Asthma symptoms</a></h3>
             </div>
           </div>
-          <div class="col-xl-2 col-md-3">
+        <div class="col-xl-2 col-md-3">
             <div class="icon-box">
               <i class="ri-calendar-todo-line"></i>
               <h3><a href="">We deliver across the sea</a></h3>
             </div>
-          </div>
-          <div class="col-xl-2 col-md-3">
+        </div>
+        <div class="col-xl-2 col-md-3">
             <div class="icon-box">
               <i class="ri-paint-brush-line"></i>
               <h3><a href="">Cures Kidney stones</a></h3>
             </div>
-          </div>
-          <div class="col-xl-2 col-md-3">
+        </div>
+        <div class="col-xl-2 col-md-3">
             <div class="icon-box">
               <i class="ri-database-2-line"></i>
               <h3><a href="">Renews blood cell</a></h3>
             </div>
-          </div>
+        </div>
         </div>
       </div>
     </section>
@@ -70,7 +72,7 @@ $_SESSION['csrf'] = getRandomID();
               class="col-xl-7 ps-4 ps-lg-5 pe-4 pe-lg-1 d-flex align-items-stretch"
               data-aos="fade-left"
               data-aos-delay="100"
-            >
+              >
               <div class="content d-flex flex-column justify-content-center">
                 <h3>Deliciousness Undefined</h3>
                 <div class="row">
@@ -146,7 +148,7 @@ $_SESSION['csrf'] = getRandomID();
               class="col-xl-5 d-flex align-items-stretch justify-content-center justify-content"
               data-aos="fade-right"
               data-aos-delay="100"
-            >
+              >
               <img src="../assets/img/Tea/about-2.jpg" class="img-fluid" alt="" />
             </div>
           </div>

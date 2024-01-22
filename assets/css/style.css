@@ -119,7 +119,7 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 1;
   padding: 15px 0;
 }
 
@@ -260,7 +260,8 @@ a.get-started-btn.cta.scrollto:last-child:hover {
   color: #ffc451;
 }
 
-.navbar .dropdown ul {
+/* for a dropdown menu for example: services with a dropdown icon */
+/* .navbar .dropdown ul {
   display: block;
   position: absolute;
   left: 14px;
@@ -277,6 +278,7 @@ a.get-started-btn.cta.scrollto:last-child:hover {
 
 .navbar .dropdown ul li {
   min-width: 200px;
+  color: #151515;
 }
 
 .navbar .dropdown ul a {
@@ -314,7 +316,7 @@ a.get-started-btn.cta.scrollto:last-child:hover {
   top: 0;
   left: 100%;
   visibility: visible;
-}
+} */
 
 .btns a {
     margin-left: 5px;
@@ -503,18 +505,16 @@ a.get-started-btn.cta.scrollto:last-child:hover {
   color: #fff;
 }
 
-
 #hero .icon-box {
   padding: 30px 20px;
-  transition: height ease-out 0.3s;
+  transition: ease-out 0.3s;
   border: 2px solid rgba(255, 255, 255, 0.3);
-  height: 170px;
+  height: 100%;
   text-align: center;
 }
 
 #hero .icon-box:hover {
   padding: 20px 10px;
-  height: 180px;
   border-color: #ffc041;
   box-shadow: 2px 5px 20px #ffc041;
 }
@@ -619,6 +619,7 @@ section {
   max-width: 90%;
   height: auto;
 }
+
 
 .card-1{
   background-color: rgb(250, 252, 252);

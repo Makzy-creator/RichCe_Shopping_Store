@@ -36,11 +36,8 @@
   //first i'll check if the remove button is set ie, has a value to be removed, next i'll check if that product_id in the remove button is numeric next i'll check if the cart contains that product to be removed, then i'll finalize that both the cart and the remove button has values in them.
   //finally, i'll unset the cart and get request by removing that particular product with a numeric id
   if (isset($_GET['remove']) && is_numeric($_GET['remove']) && isset($_SESSION['cart']) && isset($_SESSION['cart'][$_GET['remove']])) {
-
       unset($_SESSION['cart'][$_GET['remove']]);
   }
-
-
 ?>
 
 
